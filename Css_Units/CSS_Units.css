@@ -1,0 +1,84 @@
+/* html ->rems are based on the html document size/fontsize
+{
+    font-size: 10px;
+} */
+
+span
+{
+    color:red;
+}
+
+section
+{
+    background-color: #6d6875;
+    width: 800px;
+    height: 800px;
+}
+
+._DivA
+{
+    background-color: #e5989b;
+    /* 50% wide as what ever the parent element will be  */
+    width: 50%;
+    /* 50% long as what ever the parent element will be */
+    height: 50%;
+}
+
+.Title
+{
+     /* Percentage changing depending on specific property  */
+    font-size: 40px;
+    border: 1px solid black;
+    line-height: 200%;
+}
+article
+{
+    font-size: 50px;
+}
+.emExH2
+{
+    font-size: 5em;
+    margin-left: 1em; /*what ever the current font size is computed to be (2*parent = 40px), so it should move left 40px  */
+}
+.emExH3
+{
+    font-size: 1.5em;
+}
+.emExP1
+{
+    font-size: 1em;
+}
+.emExButton
+{
+    font-size: 1em;
+    padding:0 1em;
+    border-radius: .5em;
+    background-color: #2a9d8f;
+    color: white;
+}
+
+article ul
+{
+    font-size: 1.5rem;
+}
+
+/*EMs can stack they can grow or shrink very quickly!*/
+
+#rems h2
+{
+    font-size: 2rem;
+}
+
+#rems h3
+{
+    font-size: 1.5rem;
+}
+
+#rems ul
+{
+    font-size: .8rem;
+}
+#rems button
+{
+    font-size: 1.5rem;
+}

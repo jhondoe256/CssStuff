@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Flexbox.css">
+    <title>Flexbox Notes</title>
+</head>
+<body>
+    <p>Within one container how do we distribute space across different elements. Make those elements larger or add space between those elements, move them
+        to the left or right, split up the space evenly, Make sure the first thing gets more space middle thing gets least amout of space, we can create flexible
+    layouts ( the elements inside are flexible) as the browser is resized the boxes are flexing or conforming to a desired shape or position. </p>
+
+    <h1>Flexbox Playground! display:Felx and flex-direction: (row or row-reverse,column or column-reverse)</h1>
+
+    <section id="container">
+        <div style="background-color: #80ffdb;"></div>
+        <div style="background-color: #64dfdf;"></div>
+        <div style="background-color: #48bfe3;"></div>
+        <div style="background-color: #5390d9;"></div>
+        <div style="background-color: #6930c3;"></div>
+    </section>
+    <section id="FlexModel">
+        
+            <div class="TFM_Pic">
+                <img src="../img/TheFlexModel.jpg" width="300px" height="300px">
+                <ul>
+                    <li>By Default the Main Axis goes from Left to Right</li>
+                </ul>
+            </div>
+      
+        
+       
+        </div>
+    </section>
+
+
+    <h1>Flexbox FlexDirection (Changes default direction of flexbox)!</h1>
+
+    <section id="container2">
+        <div style="background-color: #80ffdb;"></div>
+        <div style="background-color: #64dfdf;"></div>
+        <div style="background-color: #48bfe3;"></div>
+        <div style="background-color: #5390d9;"></div>
+        <div style="background-color: #6930c3;"></div>
+    </section>
+    <section id="FlexModel2">
+        
+        <div class="TFM_Pic">
+            <img src=" " >
+            <ul>
+                <li>Now the defalt path of the Flex box is Right to Left!</li>
+            </ul>
+        </div>
+    </div>
+    </section>
+<h1>Flexbox FlexDirection: column; (Changes flexbox to start from top to bottom)!</h1>
+    <section id="container3">
+        <div style="background-color: #80ffdb;"></div>
+        <div style="background-color: #64dfdf;"></div>
+        <div style="background-color: #48bfe3;"></div>
+        <div style="background-color: #5390d9;"></div>
+        <div style="background-color: #6930c3;"></div>
+    </section>
+    <section id="FlexModel">
+        
+            <div class="TFM_Pic">
+                <img src="">
+                <ul>
+                    <li>By Default the Main Axis goes from Top-Left to Bottom-Left</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <h1>Flexbox FlexDirection: column-reverse; (Changes flexbox to start from bottom to top)!</h1>
+    <section id="container4">
+        <div style="background-color: #80ffdb;"></div>
+        <div style="background-color: #64dfdf;"></div>
+        <div style="background-color: #48bfe3;"></div>
+        <div style="background-color: #5390d9;"></div>
+        <div style="background-color: #6930c3;"></div>
+    </section>
+    <section id="FlexModel">
+        
+            <div class="TFM_Pic">
+                <img src="">
+                <ul>
+                    <li>By Default the Main Axis goes from Bottom-Left to Top-Left</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <h1>Justify-Content</h1>
+    <section id="container5">
+        <div style="background-color: #80ffdb;"></div>
+        <div style="background-color: #64dfdf;"></div>
+        <div style="background-color: #48bfe3;"></div>
+        <div style="background-color: #5390d9;"></div>
+        <div style="background-color: #6930c3;"></div>
+    </section>
+    <section id="FlexModel">
+        
+            <div class="TFM_Pic">
+                <img src="">
+                <ul>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <h1>Justify-Content: Center</h1>
+    <section id="container6">
+        <div style="background-color: #80ffdb;"></div>
+        <div style="background-color: #64dfdf;"></div>
+        <div style="background-color: #48bfe3;"></div>
+        <div style="background-color: #5390d9;"></div>
+        <div style="background-color: #6930c3;"></div>
+    </section>
+    <section id="FlexModel">
+        
+            <div class="TFM_Pic">
+                <img src="">
+                <ul>
+                    <li>This Centers the container in the middle of the screen</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <h1>Justify-Content: space-between</h1>
+    <section id="container7">
+        <div style="background-color: #80ffdb;"></div>
+        <div style="background-color: #64dfdf;"></div>
+        <div style="background-color: #48bfe3;"></div>
+        <div style="background-color: #5390d9;"></div>
+        <div style="background-color: #6930c3;"></div>
+    </section>
+    <section id="FlexModel">
+        
+            <div class="TFM_Pic">
+                <img src="">
+                <ul>
+                    <li>Take all of the "Extra Sapce" and distribute it evenly between all of the elements <strong>But Not on the Outside Edges!</strong></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <h1>Justify-Content: space-around</h1>
+    <section id="container8">
+        <div style="background-color: #80ffdb;"></div>
+        <div style="background-color: #64dfdf;"></div>
+        <div style="background-color: #48bfe3;"></div>
+        <div style="background-color: #5390d9;"></div>
+        <div style="background-color: #6930c3;"></div>
+    </section>
+    <section id="FlexModel">
+        
+            <div class="TFM_Pic">
+                <img src="">
+                <ul>
+                    <li>Gives each element the same amount of space around it!</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <h1>Justify-Content: space-evenly</h1>
+    <section id="container9">
+        <div style="background-color: #80ffdb;"></div>
+        <div style="background-color: #64dfdf;"></div>
+        <div style="background-color: #48bfe3;"></div>
+        <div style="background-color: #5390d9;"></div>
+        <div style="background-color: #6930c3;"></div>
+    </section>
+    <section id="FlexModel">
+        
+            <div class="TFM_Pic">
+                <img src="">
+                <ul>
+                    <li>Ensures that the space is even between every element and between the elements and  the container (all along the main axis)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <h1>THE MAIN AXIS IS NOT ALWAYS HORIZONTAL!!!!</h1>
+
+    <h1>Changed Main Axis..Row..(flex-direction:row-reverse)...</h1>
+    <section id="container10">
+        <div style="background-color: #80ffdb;"></div>
+        <div style="background-color: #64dfdf;"></div>
+        <div style="background-color: #48bfe3;"></div>
+        <div style="background-color: #5390d9;"></div>
+        <div style="background-color: #6930c3;"></div>
+    </section>
+    <section id="FlexModel">
+        
+            <div class="TFM_Pic">
+                <img src="">
+                <ul>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <h1>Changed Main Axis..Column...</h1>
+    <section id="container11">
+        <div style="background-color: #80ffdb;"></div>
+        <div style="background-color: #64dfdf;"></div>
+        <div style="background-color: #48bfe3;"></div>
+        <div style="background-color: #5390d9;"></div>
+        <div style="background-color: #6930c3;"></div>
+    </section>
+    <section id="FlexModel">
+        
+            <div class="TFM_Pic">
+                <img src="">
+                <ul>
+                    <li>Ensures that the space is even between every element and between the elements and  the container (all along the main axis)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <h1>FLEX WRAP</h1>
+    <section id="container12">
+        <div style="background-color: #80ffdb;"></div>
+        <div style="background-color: #64dfdf;"></div>
+        <div style="background-color: #48bfe3;"></div>
+        <div style="background-color: #5390d9;"></div>
+        <div style="background-color: #6930c3;"></div>
+    </section>
+    <section id="FlexModel">
+        
+            <div class="TFM_Pic">
+                <img src="">
+                <ul>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <h1>FLEX WRAP</h1>
+    <section id="container13">
+        <div style="background-color: #80ffdb;"></div>
+        <div style="background-color: #64dfdf;"></div>
+        <div style="background-color: #48bfe3;"></div>
+        <div style="background-color: #5390d9;"></div>
+        <div style="background-color: #6930c3;"></div>
+    </section>
+    <section id="FlexModel">
+        
+            <div class="TFM_Pic">
+                <img src="">
+                <ul>
+                    <li>Everything is Alligned to the the top b/c our Main Axis is top-to-bottom we are in a column </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <h1>FLEX WRAP REVERSE</h1>
+    <section id="container14">
+        <div style="background-color: #80ffdb;"></div>
+        <div style="background-color: #64dfdf;"></div>
+        <div style="background-color: #48bfe3;"></div>
+        <div style="background-color: #5390d9;"></div>
+        <div style="background-color: #6930c3;"></div>
+    </section>
+    <section id="FlexModel">
+        
+            <div class="TFM_Pic">
+                <img src="">
+                <ul>
+                    <li>Everything is Alligned to the the top b/c our Main Axis is top-to-bottom we are in a column,
+                        CROSS AXIS IS NOW GOING RIGHT-TO-LEFT!
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <h1>FLEX WRAP</h1>
+    <section id="container15">
+        <div style="background-color: #80ffdb;"></div>
+        <div style="background-color: #64dfdf;"></div>
+        <div style="background-color: #48bfe3;"></div>
+        <div style="background-color: #5390d9;"></div>
+        <div style="background-color: #6930c3;"></div>
+    </section>
+    <section id="FlexModel">
+        
+            <div class="TFM_Pic">
+                <img src="">
+                <ul>
+                    <li>Main axis Left to right</li>
+                    <li>The Row is Top to Bottom</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <h1>FLEX WRAP (wrap-reverse)</h1>
+    <section id="container16">
+        <div style="background-color: #80ffdb;"></div>
+        <div style="background-color: #64dfdf;"></div>
+        <div style="background-color: #48bfe3;"></div>
+        <div style="background-color: #5390d9;"></div>
+        <div style="background-color: #6930c3;"></div>
+    </section>
+    <section id="FlexModel">
+        
+            <div class="TFM_Pic">
+                <img src="">
+                <ul>
+                    <li>Main axis Left to right</li>
+                    <li>The Row is Bottom to Top</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <h1>Align Items</h1>
+    <section id="container17">
+        <div style="background-color: #80ffdb;"></div>
+        <div style="background-color: #64dfdf;"></div>
+        <div style="background-color: #48bfe3;"></div>
+        <div style="background-color: #5390d9;"></div>
+        <div style="background-color: #6930c3;"></div>
+    </section>
+    <section id="FlexModel">
+        
+            <div class="TFM_Pic">
+                <img src="">
+                <ul>
+                    <li>Using align-items: flex-start; (no changes)</li>
+                    <li>In the Main Axis still centered but on the column axis at the beginning of it</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <h1>Align Items</h1>
+    <section id="container18">
+        <div style="background-color: #80ffdb;"></div>
+        <div style="background-color: #64dfdf;"></div>
+        <div style="background-color: #48bfe3;"></div>
+        <div style="background-color: #5390d9;"></div>
+        <div style="background-color: #6930c3;"></div>
+    </section>
+    <section id="FlexModel">
+        
+        <div class="TFM_Pic">
+            <img src="">
+            <ul>
+                    <li>In the Main Axis still centered but on the column axis at the end of it</li>
+                    <li>Using align-items: flex-start; starts the column axis at the bottom (in this instance)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <h1>Align Items</h1>
+    <section id="container19">
+        <div style="background-color: #80ffdb;"></div>
+        <div style="background-color: #64dfdf;"></div>
+        <div style="background-color: #48bfe3;"></div>
+        <div style="background-color: #5390d9;"></div>
+        <div style="background-color: #6930c3;"></div>
+    </section>
+    <section id="FlexModel">
+        
+        <div class="TFM_Pic">
+            <img src="">
+            <ul>
+                <li>Using <strong>align-items: center</strong>; <strong>justify-content:center;</strong></li>
+                <li>Puts items in the center of the screen </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <h1>Align Items</h1>
+    <section id="container20">
+        <div style="background-color: #80ffdb;">H</div>
+        <div style="background-color: #64dfdf;">E</div>
+        <div style="background-color: #48bfe3;  height: 300px;">L</div>
+        <div style="background-color: #5390d9;">L</div>
+        <div style="background-color: #6930c3; height: 100px;">O</div>
+    </section>
+    <section id="FlexModel">
+        
+        <div class="TFM_Pic">
+            <img src="">
+            <ul>
+                <li>Using <strong>align-items: center</strong>; <strong>justify-content:center;</strong></li>
+                <li>Puts items in the center of the screen </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <h1>Align Items</h1>
+    <section id="container21">
+        <div style="background-color: #80ffdb;">H</div>
+        <div style="background-color: #64dfdf;">E</div>
+        <div style="background-color: #48bfe3;  height: 300px;">L</div>
+        <div style="background-color: #5390d9;">L</div>
+        <div style="background-color: #6930c3; height: 100px;">O</div>
+    </section>
+    <section id="FlexModel">
+        
+        <div class="TFM_Pic">
+            <img src="">
+            <ul>
+                <li>Using <strong>align-items: baseline</strong>; <strong>justify-content:center;</strong></li>
+                <li>Puts items in the center of the screen </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <h1>Align Items</h1>
+    <section id="container21">
+        <div style="background-color: #80ffdb;">H</div>
+        <div style="background-color: #64dfdf;">E</div>
+        <div style="background-color: #48bfe3;  height: 300px;">L</div>
+        <div style="background-color: #5390d9; font-size:  8em;">L</div>
+        <div style="background-color: #6930c3; height: 100px;">O</div>
+    </section>
+    <section id="FlexModel">
+        
+        <div class="TFM_Pic">
+            <img src="">
+            <ul>
+                <li>Using <strong>align-items: baseline</strong>; <strong>justify-content:center;</strong></li>
+                <li>Like drawing a straight line underneath each letter </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <h1>Align Items (not working in a row)</h1>
+    <section id="container22">
+        <div style="background-color: #80ffdb;"></div>
+        <div style="background-color: #64dfdf;"></div>
+        <div style="background-color: #48bfe3; "></div>
+        <div style="background-color: #5390d9; "></div>
+        <div style="background-color: #6930c3;"></div>
+    </section>
+    <section id="FlexModel">
+        
+        <div class="TFM_Pic">
+            <img src="">
+            <ul>
+                <li>Using <strong>align-items: baseline</strong>; <strong>justify-content:center;</strong></li>
+                <li>Now Cross Axis goes from bottom to top </li>
+                <li>Left to Right, from bottom to top </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <h1>Align Items (not working in a row)</h1>
+    <section id="container23">
+        <div style="background-color: #80ffdb;"></div>
+        <div style="background-color: #64dfdf;"></div>
+        <div style="background-color: #48bfe3; "></div>
+        <div style="background-color: #5390d9; "></div>
+        <div style="background-color: #6930c3;"></div>
+    </section>
+    <section id="FlexModel">
+        
+        <div class="TFM_Pic">
+            <img src="">
+            <ul>
+                <li>Using <strong>align-items: baseline</strong>; <strong>justify-content:center;</strong></li>
+                <li>Main Axis, top to bottom, Cross Axis Left to Right</li>
+                <li>Wrapping and Align-items: center</li>
+            </ul>
+            </div>
+        </div>
+    </section>
+
+    <h1>Align Items (not working in a row)</h1>
+    <section id="container24">
+        <div style="background-color: #80ffdb;"></div>
+        <div style="background-color: #64dfdf;"></div>
+        <div style="background-color: #48bfe3; "></div>
+        <div style="background-color: #5390d9; "></div>
+        <div style="background-color: #6930c3;"></div>
+    </section>
+    <section id="FlexModel">
+        
+        <div class="TFM_Pic">
+            <img src="">
+            <ul>
+                <li>Using <strong>align-items: baseline</strong>; <strong>justify-content:center;</strong></li>
+                <li>Main Axis, top to bottom, Cross Axis Left to Right</li>
+                <li>Wrapping and Align-items: center</li>
+                <li>Flex-end(right side)</li>
+            </ul>
+            </div>
+        </div>
+    </section>
+
+    <h1>Align Items (not working in a row)</h1>
+    <section id="container25">
+        <div style="background-color: #80ffdb;"></div>
+        <div style="background-color: #64dfdf;"></div>
+        <div style="background-color: #48bfe3; "></div>
+        <div style="background-color: #5390d9; "></div>
+        <div style="background-color: #6930c3;"></div>
+    </section>
+    <section id="FlexModel">
+        
+        <div class="TFM_Pic">
+            <img src="">
+            <ul>
+                <li>Using <strong>align-items: baseline</strong>; <strong>justify-content:center;</strong></li>
+                <li>Main Axis, top to bottom, Cross Axis Left to Right</li>
+                <li>Flex-start (left side)</li>
+            </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <h1>Align Items (not working in a row)</h1>
+    <section id="container26">
+        <div style="background-color: #80ffdb;"></div>
+        <div style="background-color: #64dfdf;"></div>
+        <div style="background-color: #48bfe3; "></div>
+        <div style="background-color: #5390d9; "></div>
+        <div style="background-color: #6930c3;"></div>
+    </section>
+    <section id="FlexModel">
+        
+        <div class="TFM_Pic">
+            <img src="">
+            <ul>
+                <li>Using <strong>align-items: baseline</strong>; <strong>justify-content:center;</strong></li>
+                <li>Main Axis, top to bottom, Cross Axis Right to Left</li>
+                <li>wrap-reverse and Align-items: flex-start</li>
+                <li>Flex-start (left side)</li>
+            </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <h1>Align Content (align-content:space-between;)</h1>
+    <section id="container27">
+        <div style="background-color: #80ffdb;"></div>
+        <div style="background-color: #64dfdf;"></div>
+        <div style="background-color: #48bfe3; "></div>
+        <div style="background-color: #5390d9; "></div>
+        <div style="background-color: #6930c3;"></div>
+    </section>
+    <section id="FlexModel">
+        
+        <div class="TFM_Pic">
+            <img src="">
+            <ul>
+                <li>Using <strong>align-items: baseline</strong>; <strong>justify-content:center;</strong></li>
+                <li>Main Axis, top to bottom, Cross Axis Right to Left</li>
+                <li>wrap-reverse and Align-items: flex-start</li>
+                <li>Flex-start (left side)</li>
+            </ul>
+            </div>
+        </div>
+    </section>
+
+    <h1>Align Content (align-content:space-between;)</h1>
+    <section id="container28">
+        <div style="background-color: #80ffdb;"></div>
+        <div style="background-color: #64dfdf;"></div>
+        <div style="background-color: #48bfe3; "></div>
+        <div style="background-color: #5390d9; "></div>
+        <div style="background-color: #6930c3;"></div>
+    </section>
+    <section id="FlexModel">
+        
+        <div class="TFM_Pic">
+            <img src="">
+            <ul>
+                <li>Using <strong>align-items: baseline</strong>; <strong>justify-content:center;</strong></li>
+                <li>Main Axis, top to bottom, Cross Axis Right to Left</li>
+                <li>wrap-reverse and Align-items: flex-start</li>
+                <li>Flex-start (left side)</li>
+            </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <h1>Align Content (align-content:space-between;)</h1>
+    <section id="container29">
+        <div style="background-color: #80ffdb;"></div>
+        <div style="background-color: #64dfdf;"></div>
+        <div style="background-color: #48bfe3; "></div>
+        <div style="background-color: #5390d9; "></div>
+        <div style="background-color: #6930c3;"></div>
+    </section>
+    <section id="FlexModel">
+        
+        <div class="TFM_Pic">
+            <img src="">
+            <ul>
+                <li>Using <strong>align-items: baseline</strong>; <strong>justify-content:center;</strong></li>
+                <li>Main Axis, top to bottom, Cross Axis Right to Left</li>
+                <li>wrap-reverse and Align-items: flex-start</li>
+                <li>Flex-start (left side)</li>
+            </ul>
+            </div>
+        </div>
+    </section>
+
+    <h1>Align Content (align-content:space-between;)</h1>
+    <section id="container30">
+        <div style="background-color: #80ffdb;"></div>
+        <div style="background-color: #64dfdf;"></div>
+        <div style="background-color: #48bfe3; "></div>
+        <div style="background-color: #5390d9; "></div>
+        <div style="background-color: #6930c3;"></div>
+    </section>
+    <section id="FlexModel">
+        
+        <div class="TFM_Pic">
+            <img src="">
+            <ul>
+                <li>Using <strong>align-items: baseline</strong>; <strong>justify-content:center;</strong></li>
+                <li>Main Axis, top to bottom, Cross Axis Right to Left</li>
+                <li>wrap-reverse and Align-items: flex-start</li>
+                <li>Flex-start (left side)</li>
+            </ul>
+            </div>
+        </div>
+    </section>
+
+    <h1>Align Content (align-content:space-between;)</h1>
+    <section id="container31">
+        <div style="background-color: #80ffdb;"></div>
+        <div style="background-color: #64dfdf;"></div>
+        <div style="background-color: #48bfe3; "></div>
+        <div style="background-color: #5390d9; "></div>
+        <div style="background-color: #6930c3;"></div>
+    </section>
+    <section id="FlexModel">
+        
+        <div class="TFM_Pic">
+            <img src="">
+            <ul>
+                <li>Using <strong>align-items: baseline</strong>; <strong>justify-content:center;</strong></li>
+                <li>Main Axis, top to bottom, Cross Axis Right to Left</li>
+                <li>wrap-reverse and Align-items: flex-start</li>
+                <li>Flex-start (left side)</li>
+            </ul>
+            </div>
+        </div>
+    </section>
+
+    <h1>Align Self</h1>
+    <section id="container32">
+        <div style="background-color: #80ffdb;"></div>
+        <div style="background-color: #64dfdf;"></div>
+        <div style="background-color: #48bfe3; "></div>
+        <div style="background-color: #5390d9; "></div>
+        <div style="background-color: #6930c3;"></div>
+    </section>
+    <section id="FlexModel">
+        
+        <div class="TFM_Pic">
+            <img src="">
+            <ul>
+                <li>Added to individual items in a container</li>
+                <li>First property we've seen we dont apply to the flex container itself, but to individual elements</li>
+                <li>And we can change the alignment along the Cross Axis</li>
+                <li>How you position one thing at a time w/n this flex container</li>
+            </ul>
+            </div>
+        </div>
+    </section>
+
+    <h1>Align Self (column layout)</h1>
+    <section id="container33">
+        <div style="background-color: #80ffdb;"></div>
+        <div style="background-color: #64dfdf;"></div>
+        <div style="background-color: #48bfe3; "></div>
+        <div style="background-color: #5390d9; "></div>
+        <div style="background-color: #6930c3;"></div>
+    </section>
+    <section id="FlexModel">
+        
+        <div class="TFM_Pic">
+            <img src="">
+            <ul>
+                <li>Added to individual items in a container</li>
+                <li>First property we've seen we dont apply to the flex container itself, but to individual elements</li>
+                <li>And we can change the alignment along the Cross Axis</li>
+                <li>How you position one thing at a time w/n this flex container</li>
+            </ul>
+            </div>
+        </div>
+    </section>
+
+    <h1>Flex Sizing Properties</h1>
+    <section id="container34">
+        <div style="background-color: #80ffdb;"></div>
+        <div style="background-color: #64dfdf;"></div>
+        <div style="background-color: #48bfe3; "></div>
+        <div style="background-color: #5390d9; "></div>
+        <div style="background-color: #6930c3;"></div>
+    </section>
+    <section id="FlexModel">
+        
+        <div class="TFM_Pic">
+            <img src="">
+            <ul>
+                <li>Flex-Bias -> Defines the initial size of an element before additional space is distributed.</li>
+               
+            </ul>
+            </div>
+        </div>
+    </section>
+
+    <h1>Flex Sizing Properties (column)</h1>
+    <section id="container35">
+        <div style="background-color: #80ffdb;"></div>
+        <div style="background-color: #64dfdf;"></div>
+        <div style="background-color: #48bfe3; "></div>
+        <div style="background-color: #5390d9; "></div>
+        <div style="background-color: #6930c3;"></div>
+    </section>
+    <section id="FlexModel">
+        
+        <div class="TFM_Pic">
+            <img src="">
+            <ul>
+                <li>Flex-Bias -> Defines the initial size of an element before additional space is distributed. It might be a width it might be a height depending on the main axis direction</li>
+               
+            </ul>
+            </div>
+        </div>
+    </section>
+
+    <h1>Flex Sizing Flex-Grow (first and last div have a flex-grow:1)</h1>
+    <section id="container36">
+        <div style="background-color: #80ffdb;"></div>
+        <div style="background-color: #64dfdf;"></div>
+        <div style="background-color: #48bfe3; "></div>
+        <div style="background-color: #5390d9; "></div>
+        <div style="background-color: #6930c3;"></div>
+    </section>
+    <section id="FlexModel">
+        
+        <div class="TFM_Pic">
+            <img src="">
+            <ul>
+                <li>Flex-Grow -> Controls the amount of abailable space an element shoould take up(if there is available space). Accepts a unit-less number value.</li>
+            </ul>
+            </div>
+        </div>
+    </section>
+
+    <h1>Flex Sizing Flex-Grow (all divs have a flex-grow: 1)</h1>
+    <section id="container37">
+        <div style="background-color: #80ffdb;"></div>
+        <div style="background-color: #64dfdf;"></div>
+        <div style="background-color: #48bfe3; "></div>
+        <div style="background-color: #5390d9; "></div>
+        <div style="background-color: #6930c3;"></div>
+    </section>
+    <section id="FlexModel">
+        
+        <div class="TFM_Pic">
+            <img src="">
+            <ul>
+                <li>Flex-Grow -> Controls the amount of abailable space an element shoould take up(if there is available space). Accepts a unit-less number value.</li>
+                <li>They are no longer 200px wide but they all share the same width and fill the entire flex container</li>
+                <li>As page gets smaller the divs dynamacally change in size porportionally to the screen</li>
+            </ul>
+            </div>
+        </div>
+    </section>
+
+    <h1>Flex Sizing Flex-Grow (all divs have a flex-grow: 1) we can set a max width</h1>
+    <section id="container38">
+        <div style="background-color: #80ffdb;"></div>
+        <div style="background-color: #64dfdf;"></div>
+        <div style="background-color: #48bfe3; "></div>
+        <div style="background-color: #5390d9; "></div>
+        <div style="background-color: #6930c3;"></div>
+    </section>
+    <section id="FlexModel">
+        
+        <div class="TFM_Pic">
+            <img src="">
+            <ul>
+                <li>Flex-Grow -> Controls the amount of abailable space an element shoould take up(if there is available space). Accepts a unit-less number value.</li>
+                <li>They are no longer 200px wide but they all share the same width and fill the entire flex container</li>
+                <li>As page gets smaller the divs dynamacally change in size porportionally to the screen</li>
+            </ul>
+            </div>
+        </div>
+    </section>
+
+    <h1>Flex Sizing Flex-Grow we can set different widths to different divs (last is double the first)</h1>
+    <section id="container39">
+        <div style="background-color: #80ffdb;"></div>
+        <div style="background-color: #64dfdf;"></div>
+        <div style="background-color: #48bfe3; "></div>
+        <div style="background-color: #5390d9; "></div>
+        <div style="background-color: #6930c3;"></div>
+    </section>
+    <section id="FlexModel">
+        
+        <div class="TFM_Pic">
+            <img src="">
+            <ul>
+                <li>Flex-Grow -> Controls the amount of abailable space an element shoould take up(if there is available space). Accepts a unit-less number value.</li>
+                <li>They are no longer 200px wide but they all share the same width and fill the entire flex container</li>
+                <li>As page gets smaller the divs dynamacally change in size porportionally to the screen</li>
+            </ul>
+            </div>
+        </div>
+    </section>
+
+    <h1>Flex Sizing Flex-Shrink </h1>
+    <section id="container40">
+        <div style="background-color: #80ffdb;"></div>
+        <div style="background-color: #64dfdf;"></div>
+        <div style="background-color: #48bfe3; "></div>
+        <div style="background-color: #5390d9; "></div>
+        <div style="background-color: #6930c3;"></div>
+    </section>
+    <section id="FlexModel">
+        
+        <div class="TFM_Pic">
+            <img src="">
+            <ul>
+                
+            </ul>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

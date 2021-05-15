@@ -1,0 +1,69 @@
+body
+{
+    font-family: 'Open Sans', sans-serif;    
+}
+h1{
+    text-align: center;
+}
+
+#container{
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex; /*Turns on Flex box*/
+}
+
+#container div
+{
+    width: 200px;
+    height: 200px;
+}
+
+ .TFM_Pic
+{
+    width: 80%;
+    margin: 1em auto;
+    border: 5px solid black;
+    height: 735px;
+    display: flex;
+}
+
+main
+{
+    width: 80%;
+    margin: 0 auto;
+    border: 5px solid black;
+    height: 500px;
+    display: flex;
+}
+
+main .sidebar
+{
+    background-color: #6930c3;
+    border: 2px solid white;
+    flex:1 300px;
+}
+
+main .mainContent
+{
+    background-color: #80ffdb;
+    flex:2 800px;
+}
+
+
+
+main .sidebar2
+{
+    background-color: #6930c3;
+    border: 2px solid white;
+    flex:1 2 300px;
+}
+
+main .mainContent2
+{
+    background-color: #80ffdb;
+    flex:2  1 800px;
+}
+

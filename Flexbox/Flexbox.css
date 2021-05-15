@@ -1,0 +1,841 @@
+body
+{
+    font-family: 'Open Sans', sans-serif;    
+}
+h1{
+    text-align: center;
+}
+#container{
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex; /*Turns on Flex box*/
+}
+
+#container div
+{
+    width: 200px;
+    height: 200px;
+}
+
+.TFM_Pic
+{
+    display: flex;
+    justify-content: center;
+}
+
+#container2{
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex; /*Turns on Flex box*/
+    flex-direction: row-reverse;
+}
+#container2 div
+{
+    width: 200px;
+    height: 200px;
+}
+
+
+#container3{
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex; /*Turns on Flex box*/
+    flex-direction: column;
+}
+#container3 div
+{
+    width: 200px;
+    height: 200px;
+}
+
+
+#container4{
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex; /*Turns on Flex box*/
+    flex-direction: column-reverse;
+}
+#container4 div
+{
+    width: 200px;
+    height: 200px;
+}
+
+
+#container5{
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex; /*Turns on Flex box*/
+    flex-direction: row;
+    /* justify-content: flex-start; */
+     justify-content: flex-end; 
+}
+#container5 div
+{
+    width: 200px;
+    height: 200px;
+}
+
+#container6{
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex; /*Turns on Flex box*/
+    flex-direction: row;
+    /* justify-content: flex-start; */
+     justify-content: center; 
+}
+#container6 div
+{
+    width: 200px;
+    height: 200px;
+}
+
+
+#container7{
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex; /*Turns on Flex box*/
+    flex-direction: row;
+    /* justify-content: flex-start; */
+     justify-content: space-between; 
+}
+#container7 div
+{
+    width: 200px;
+    height: 200px;
+}
+
+#container8{
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex; /*Turns on Flex box*/
+    flex-direction: row;
+    /* justify-content: flex-start; */
+    justify-content: space-around; 
+}
+#container8 div
+{
+    width: 200px;
+    height: 200px;
+}
+
+#container9{
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex; /*Turns on Flex box*/
+    flex-direction: row;
+    /* justify-content: flex-start; */
+    justify-content: space-evenly; 
+}
+#container9 div
+{
+    width: 200px;
+    height: 200px;
+}
+
+#container10{
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex; /*Turns on Flex box*/
+    flex-direction: row-reverse;/*Main Axis is Right to Left now*/
+    justify-content: flex-end;/*Now moves content to the Left side (very different)*/
+    
+}
+#container10 div
+{
+    width: 200px;
+    height: 200px;
+}
+
+#container11{
+    background-color: #003049;
+    width: 90%;
+    height: 1200px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex; /*Turns on Flex box*/
+    flex-direction: column;/*Main Axis is Right to Left now*/
+    justify-content: space-evenly;/*Making changes via the space evenly the divs (the Main Axis is now Vertical) */
+    /*The divs move from bottom to top the main axis is now vertical (bottom is the end, top is the start)*/
+    /*EVERYTHING IS UP TO YOU AND HOW YOU IMPLMENTED YOUR "flex-direction: ";*/
+}
+#container11 div
+{
+    width: 200px;
+    height: 200px;
+}
+
+#container12{
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex; /*Turns on Flex box*/
+   flex-direction: column;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+  
+}
+#container12 div
+{
+    width: 200px;
+    height: 200px;
+}
+
+#container13{
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex; /*Turns on Flex box*/
+   flex-direction: column;
+   justify-content: flex-start;
+   flex-wrap: wrap;
+  
+}
+#container13 div
+{
+    width: 200px;
+    height: 200px;
+}
+
+#container14{
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex; /*Turns on Flex box*/
+   flex-direction: column;
+   justify-content: flex-start;
+   flex-wrap: wrap-reverse;
+  
+}
+#container14 div
+{
+    width: 200px;
+    height: 200px;
+}
+
+#container15{
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex; /*Turns on Flex box*/
+   flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  
+}
+#container15 div
+{
+    width: 500px;
+    height: 200px;
+}
+
+#container16{
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex; /*Turns on Flex box*/
+   flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap-reverse;
+  
+}
+#container16 div
+{
+    width: 500px;
+    height: 200px;
+}
+
+#container17{
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex; /*Turns on Flex box*/
+   flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+
+  
+}
+#container17 div
+{
+    width: 200px;
+    height: 200px;
+}
+
+#container18{
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex; /*Turns on Flex box*/
+   flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+
+  
+}
+#container18 div
+{
+    width: 200px;
+    height: 200px;
+}
+
+#container19{
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex; /*Turns on Flex box*/
+   flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+  
+}
+#container19 div
+{
+    width: 200px;
+    height: 200px;
+}
+
+#container20{
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex; /*Turns on Flex box*/
+   flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+  
+}
+#container20 div
+{
+    width: 200px;
+    height: 200px;
+    font-size: 4em;
+    text-align: center;
+}
+
+#container21{
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex; /*Turns on Flex box*/
+   flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+
+  
+}
+#container21 div
+{
+    width: 200px;
+    height: 200px;
+    font-size: 4em;
+    text-align: center;
+}
+
+#container22{
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex; /*Turns on Flex box*/
+   flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap-reverse;/*Changes direction of the Cross Axis*/
+  
+}
+#container22 div
+{
+    width: 600px;
+    height: 100px;
+    text-align: center;
+}
+
+#container23{
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex; /*Turns on Flex box*/
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  flex-wrap: wrap;
+}
+#container23 div
+{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+#container24{
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex; /*Turns on Flex box*/
+   flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+  flex-wrap: wrap;
+}
+#container24 div
+{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+#container25{
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex; /*Turns on Flex box*/
+   flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  flex-wrap: wrap;
+}
+#container25 div
+{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+#container26{
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex; /*Turns on Flex box*/
+   flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  flex-wrap: wrap;
+}
+#container26 div
+{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+#container27{
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex; /*Turns on Flex box*/
+   flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+  flex-wrap: wrap;/*This wrap, wrap-reverse or flex-wrap has to be on for align-content to work*/
+  align-content: center;
+}
+#container27 div
+{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+
+#container28{
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex; /*Turns on Flex box*/
+   flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+  flex-wrap: wrap;/*This wrap, wrap-reverse or flex-wrap has to be on for align-content to work*/
+  align-content: flex-start;
+}
+#container28 div
+{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+#container29{
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex; /*Turns on Flex box*/
+   flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+  flex-wrap: wrap;/*This wrap, wrap-reverse or flex-wrap has to be on for align-content to work*/
+  align-content: space-between;
+}
+#container29 div
+{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+#container30{
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex; /*Turns on Flex box*/
+   flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+  flex-wrap: wrap;/*This wrap, wrap-reverse or flex-wrap has to be on for align-content to work*/
+  
+}
+#container30 div
+{
+    width: 500px;
+    height: 200px;
+    text-align: center;
+}
+
+
+#container31{
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex; /*Turns on Flex box*/
+   flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+  flex-wrap: wrap;/*This wrap, wrap-reverse or flex-wrap has to be on for align-content to work*/
+  align-content: center;
+  
+}
+#container31 div
+{
+    width: 500px;
+    height: 200px;
+    text-align: center;
+}
+
+#container32{
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex; /*Turns on Flex box*/
+   flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  flex-wrap: wrap;/*This wrap, wrap-reverse or flex-wrap has to be on for align-content to work*/
+
+  
+}
+#container32 div
+{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+#container32 div:nth-of-type(2)
+{
+   align-self: flex-end;
+}
+
+#container32 div:nth-of-type(3)
+{
+   align-self: center;
+}
+
+#container32 div:nth-of-type(5)
+{
+   align-self: flex-end;
+}
+
+#container33{
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex; /*Turns on Flex box*/
+   flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+  flex-wrap: wrap;/*This wrap, wrap-reverse or flex-wrap has to be on for align-content to work*/
+
+  
+}
+#container33 div
+{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+#container33 div:nth-of-type(5)
+{
+    align-self: flex-start;
+}
+
+#container34{
+    background-color: #003049;
+    width: 90%;
+    /* height: 200px; */
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex; /*Turns on Flex box*/
+   flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  flex-wrap: wrap;/*This wrap, wrap-reverse or flex-wrap has to be on for align-content to work*/
+
+  
+}
+#container34 div
+{
+    /* width: 200px; */
+    height: 100px;
+    text-align: center;
+    flex-basis: 325px;/*Width that is used when we are in a*/
+}
+
+
+#container35{
+    background-color: #003049;
+    width: 90%;
+    /* height: 200px; */
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex; /*Turns on Flex box*/
+   flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  flex-wrap: wrap;/*This wrap, wrap-reverse or flex-wrap has to be on for align-content to work*/
+
+  
+}
+#container35 div
+{
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    flex-basis: 325px;/*Width that is used when we are in a*/
+}
+
+#container36{
+    background-color: #003049;
+    width: 90%;
+    /* height: 200px; */
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex; /*Turns on Flex box*/
+   flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  flex-wrap: wrap;/*This wrap, wrap-reverse or flex-wrap has to be on for align-content to work*/
+
+  
+}
+#container36 div
+{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    /* flex-basis: 300px;Width that is used when we are in a */
+}
+
+#container36 div:nth-of-type(1)
+{
+    flex-grow: 1;/*accepts a UNITLESS NUBMER, it takes up ALL AVAILABLE SPACE*/
+}
+
+#container36 div:nth-of-type(5)
+{
+    flex-grow: 1;/*accepts a UNITLESS NUBMER, it takes up ALL AVAILABLE SPACE*/
+}
+
+#container37{
+    background-color: #003049;
+    width: 90%;
+    /* height: 200px; */
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex; /*Turns on Flex box*/
+   flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  flex-wrap: wrap;/*This wrap should be on*/
+
+  
+}
+#container37 div
+{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    /* flex-basis: 300px;Width that is used when we are in a */
+    flex-grow: 1;
+}
+
+#container38{
+    background-color: #003049;
+    width: 90%;
+    /* height: 200px; */
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex; /*Turns on Flex box*/
+   flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  flex-wrap: wrap;/*This wrap should be on*/
+
+  
+}
+#container38 div
+{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    /* flex-basis: 300px;Width that is used when we are in a */
+    flex-grow: 1;
+}
+
+#container39{
+    background-color: #003049;
+    width: 90%;
+    /* height: 200px; */
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex; /*Turns on Flex box*/
+   flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  flex-wrap: wrap;/*This wrap should be on*/
+
+  
+}
+#container39 div
+{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    /* flex-basis: 300px;Width that is used when we are in a */
+    flex-grow: 1;
+}
+
+#container39 div:nth-of-type(1)
+{
+    
+    flex-grow: 1;
+}
+
+#container39 div:nth-of-type(5)
+{
+    
+    flex-grow: 2; /*All about proportions, any available space twice as much of it should be equal to the div:nth-of-type(1) */
+}
+
+
+#container40{
+    background-color: #003049;
+    width: 90%;
+    height: 200px; 
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex; /*Turns on Flex box*/
+   flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  flex-wrap: wrap;/*This wrap should be on*/
+
+  
+}
+#container40 div
+{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+#container40 div:nth-of-type(1)
+{
+    flex-grow: 1;
+    flex-shrink: 3;/*How much it should shrink relative to other elements*/
+}
+
+#container40 div:nth-of-type(5)
+{
+    
+    flex-grow: 2;
+    flex-shrink: 0;
+}

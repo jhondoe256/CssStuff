@@ -1,0 +1,19 @@
+.container
+{
+    width:304px;
+    height: 410px;
+    border: 3px gray solid;
+}
+
+.innerCircle
+{
+    background-image:url("./img/xl.jpg");
+    width: 300px;
+    height: 366px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.text
+{
+    margin-left: 35% ;
+}

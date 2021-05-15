@@ -1,0 +1,73 @@
+.A
+{
+   background-color: #f1faee;
+   border-width: 5px;
+   border-color: blue;
+   border-style: solid;
+   box-sizing: border-box;
+}
+.B
+{
+    background-color: #a8dadc;
+    border-color: black;
+    border-width: 3px;
+    border-style: dashed;
+    padding-right: 50px;
+    border-left-width: 8px;
+}
+.C
+{
+background-color: #457b9d;
+border: 4px solid blueviolet;
+border-left-style: dotted;
+border-radius: 50%;
+  
+}
+div
+{
+    width: 200px;
+  
+   
+}
+h1
+{
+    color:yellow;
+    width:140px;
+    background-color: darkblue;
+    padding-left:30px;
+    padding-top: 50px;
+}
+button
+{
+    padding:20px;
+}
+.padding2
+{
+    margin-left: 50px;
+    padding: 10px 20px;
+}
+.padding3
+{
+    margin-left: 100px;
+    padding:0 20px;
+}
+.padding4
+{
+    margin-left: 120px;
+    padding:10px 20px 30px 40px;
+}
+/*
+padding: 10px;
+
+vertical | horizontal
+padding: 5px 10px
+
+top | horizontal| bottom
+padding: 1px 2px 2px
+
+top| right |bottom | left
+padding 5px 1px 0 2px
+
+-Padding is the  space between its content box and its own border, its internal spacing. Like a layer of Fat Between muscle.
+
+*/

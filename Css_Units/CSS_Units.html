@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS_Units.css">
+    <title>CSS_Units</title>
+</head>
+
+<body>
+    <h1 class="Title">Css Units <button class="emExButton">Click Me</button></h1>
+
+    <h2>Relative</h2>
+    <ul>
+        <li>
+            <h2>EM</h2>
+            <h1>EM's ARE RELATIVE Units</h1>
+            <ul>
+                <li>
+                    With font-size, 1em equals the font-size of the parent. 2em's is twice the font-size of the parent,
+                    etc.
+                    <div>
+                        <article>
+                            <h2 class="emExH2">I am H2 </h2>
+                            <h3 class="emExH3">I am H3</h3>
+                            <button class="emExButton">Click Me</button>
+                            <p class="emExP1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione numquam iure aliquid
+                                corporis illo laboriosam esse magni blanditiis, minus atque veniam quasi laborum aut
+                                quia delectus excepturi eius debitis veritatis.
+                                Assumenda illum iste sapiente nisi? Quasi hic consequatur nam deserunt. Nemo suscipit
+                                voluptatum natus est quam. Quos sit temporibus quod nemo quia ipsum numquam, vitae ullam
+                                ab autem facere placeat!</p>
+
+                                <ul>
+                                    <li>
+                                        Pasta
+                                        <ul>
+                                            <li>Ravioli
+                                                <ul>
+                                                    <li>Spinach Ricotta</li>
+                                                </ul>
+                                            </li>
+                                        <li>Penne</li>
+                                    </ul>
+                                    </li>
+                                    <li>Salad</li>
+                                    <li>Gelato</li>
+                                </ul>
+                        </article>
+                        
+                        <button class="emExButton">Click Me</button>
+                    </div>
+                </li>
+                <li>
+                    With other properties (like Padding and Margin), 1em is equal to the computed font-size of the element itself.
+                </li>
+            </ul>
+        </li>
+        <li>
+            <h2>REM</h2>
+            <h3>Root EMS</h3>
+            <ul>
+                <li>Relative to the <strong>root html elements's font-size</strong>. Often easier to work with.</li>
+                <li>If the <strong>root font-size is 20px, 1 rem is always 20px, 2rem is always 40px</strong>, etc.</li>
+            </ul>
+            <article id="rems">
+                <h1>Using Rems instead of Ems</h1>
+                <h2 class="emExH2">I am H2 </h2>
+                <h3 class="emExH3">I am H3</h3>
+                <button class="emExButton">Click Me</button>
+                <p class="emExP1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione numquam iure aliquid
+                    corporis illo laboriosam esse magni blanditiis, minus atque veniam quasi laborum aut
+                    quia delectus excepturi eius debitis veritatis.
+                    Assumenda illum iste sapiente nisi? Quasi hic consequatur nam deserunt. Nemo suscipit
+                    voluptatum natus est quam. Quos sit temporibus quod nemo quia ipsum numquam, vitae ullam
+                    ab autem facere placeat!</p>
+
+                    <ul>
+                        <li>
+                            Pasta
+                            <ul>
+                                <li>Ravioli
+                                    <ul>
+                                        <li>Spinach Ricotta</li>
+                                    </ul>
+                                </li>
+                            <li>Penne</li>
+                        </ul>
+                        </li>
+                        <li>Salad</li>
+                        <li>Gelato</li>
+                    </ul>
+            </article>
+        </li>
+        <li>VH</li>
+        <li>Vw</li>
+        <li>
+            <h2>Percentages (%)</h2>
+            <p>
+                <strong>Percentages are always relative to some other value!</strong>
+            <p>Sometinmes, it's a value <strong>from the PARENT and other times it's a value from the Element
+                    itself.</strong>
+            </p>
+            <p> <span>width: 50%</span> <strong>- half the width of the parent.</p></strong>
+            <p><span>line-height:50%</span><strong> - half the font-size of the element itself.</p></strong>
+
+            <section class="%Example">
+                <div class="_DivA">
+
+                </div>
+            </section>
+            </p>
+        </li>
+        <li>AND MORE!</li>
+    </ul>
+    <br>
+    <h2>Absolute</h2>
+    <ul>
+        <li>
+            <h2>PX</h2>
+            <p>By Far the most commonly used Absolute unit</p>
+            <p>1px does not necessarily equal the width of exactly one pixel! NOT RECOMMENDED FOR RESPONSIVE WEBSITES!
+            </p>
+        </li>
+        <li>PT</li>
+        <li>CM</li>
+        <li>IN</li>
+        <li>MM</li>
+    </ul>
+</body>
+
+</html>
